@@ -1,6 +1,9 @@
 # Ethereum Tip Jar
 A React component to add ETH tipping functionality to any website, styled with Tailwind CSS.
 
+### Note
+The popup is only displayed if the user has a wallet, though the popup could be easily modified to popup all the time too. 
+
 ## Getting started
 1. Fork and clone this repository.
 2. Copy or move the `EthTipJar.jsx` file into your project.
