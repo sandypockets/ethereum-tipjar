@@ -1,13 +1,16 @@
 # Ethereum Tip Jar
-A React component to add ETH tipping functionality to any website, styled with Tailwind CSS.
+A React component to add ETH tipping functionality to website styled with Tailwind CSS.
 
 ### Note
 The popup is only displayed if the user has a wallet, though the popup could be easily modified to popup all the time too. 
 
+## How it works
+When the user enters an amount in the tip form and clicks **Send Tip**, their browser based ETH wallet creates a transaction. The user then approves or rejects the transaction. If approved, the ETH is sent from the user's account to the `receivingAccount` in `EthTipJar.jsx`.
+
 ## Getting started
 1. Fork and clone this repository.
 2. Copy or move the `EthTipJar.jsx` file into your project.
-3. Change the `receivingAccount` constant on Line 12 of `EthTipJar.jsx` to the Ethereum account you want to receive tips at. 
+3. In the `EthTipJar.jsx` file, on Line 12, change the `receivingAccount` constant to the Ethereum account you want to receive tips at. 
 4. Ensure that you have the dependencies below installed. Packages can be managed with `npm` or `yarn`.
 
 ## Dependencies
